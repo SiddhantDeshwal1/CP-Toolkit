@@ -1,13 +1,9 @@
 import os
 
 # Browser settings
-BROWSER = "firefox"
+BROWSER = "librewolf"
 
 # Compilation settings
-COMPILER = "g++"
-CXX_STANDARD = "-std=c++20"
-OPTIMIZATION = "-O2"
-OUTPUT_EXECUTABLE = "workspace"
 
 # Enable/Disable sites
 ENABLED_SITES = {
@@ -16,10 +12,14 @@ ENABLED_SITES = {
     "codechef": True,
 }
 
+# Choose your language
+# CPP , JAVA , PYTHON
+LANGUAGE = "JAVA"
+
 # User handles
-CF_HANDLE = "tourist"
+CF_HANDLE = "siddhantdeshwal"
 LC_HANDLE = "siddhantdeshwal1"
-CC_HANDLE = "tourist"
+CC_HANDLE = "just_lie"
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 

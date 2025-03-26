@@ -19,8 +19,7 @@ with open(LINKS_FILE) as f:
 
 parts = first_link.split("/")
 try:
-    contest_index = parts.index("contest") + 1
-    contest_id = parts[contest_index]
+    contest_id = parts[0]
 except (ValueError, IndexError):
     print("❌ Invalid URL format in saved_links.txt.")
     exit(1)
