@@ -1,70 +1,56 @@
 # CP-TOOLKIT 🏆
 
-## Overview
+## What is This?
 
-CP-TOOLKIT is a **CLI tool** that automates common tasks for **competitive programming** across multiple platforms:
+Sick of wasting time on boring competitive programming setup? CP-TOOLKIT is your no-nonsense CLI tool that does the grunt work for you.
 
-- ✅ **LeetCode**
-- ✅ **Codeforces**
-- ✅ **CodeChef**
+**Bottom line:** Automate everything. Focus on coding, not clicking.
 
-## Features
+## What Does It Actually Do?
 
-- 🚀 **Load sample test cases**
-- 🛠 **Run and test locally**
-- 📤 **Submit solutions directly**
-- 📊 **View contest standings**
-- 📅 **List upcoming contests**
-- 🔔 **Mark contests for reminders**
+- **Grab Test Cases:** Stop manually copying test cases. We do it for you.
+- **Local Testing:** Validate your solution before submission.
+- **One-Click Submit:** Submit directly from terminal. No more browser gymnastics.
+- **Platform Support:** Works with LeetCode, Codeforces, CodeChef.
 
-## Installation
+## How to Get It Working
+
+### Installation (It's Simple, I Promise)
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/CP-TOOLKIT.git
-cd CP-TOOLKIT
-
-# Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # (or venv\Scripts\activate on Windows)
+# Clone the repo
+git clone https://github.com/SiddhantDeshwal1/CP-Toolkit/
+cd CP-Toolkit
 
 # Install dependencies
 pip install -r requirements.txt
 ```
 
-## Configuration
+### Configuration
 
-### 1️⃣ Add an alias for easy usage
+Edit `config.py`. Set up:
+- Your browser
+- Platforms you want
+- Your programming language
+- User handles
 
-```bash
-alias tool="python main.py"
-```
+## Commands That Actually Matter
 
-### 2️⃣ Edit `config.py` to:
+- `tool load <url>` → Fetch test cases
+- `tool check` → Test your code
+- `tool submit` → Submit solution
+- `tool standings` → See rankings
+- `tool rating` → Check your scores
+- `tool upcoming` → Find contests
+- `tool last` → Check last submission
 
-- Add your **credentials**
-- Select the **platforms** you want to use
+## Why Use This?
 
-## Usage
+- **Fast as Hell:** No bloated interfaces
+- **Actually Useful:** Features that matter
+- **Multi-Platform:** One tool, multiple sites
+- **Async & Multi-Threaded:** Because waiting sucks
 
-```bash
-# Load sample test cases for a problem
-tool load <problem_link>
+## Want to Support?
 
-# Run and test your solution locally
-tool test <file>
-
-# Submit your solution
-tool submit <file>
-
-# View live standings
-tool standings
-
-# List upcoming contests
-tool contests
-```
-
-## Dependencies
-
-🧠 **Just 2 brain cells** (and Python libraries 😆)
-
+Don't buy me coffee. Just star the repo. ⭐
